@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background:  url('./clouds.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   textarea{
@@ -39,9 +43,9 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: #000000;
-    border-top: 1px dashed #000000;
+    font-weight: bolder;
     text-align: center;
     padding-top: 1em;
   }

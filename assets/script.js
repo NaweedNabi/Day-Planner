@@ -9,7 +9,7 @@ class TimeblockObj {
     const currentTimeblocks = getCurrentTimeblocks();
     const currentTime = moment();
   
-    displayCurrentDate(currentTime);
+    displayCurrentDate(currentTime)
     displayTimeblockRows(currentTime);
   
     document.querySelector('.container')
@@ -25,8 +25,7 @@ class TimeblockObj {
   }
   
   function displayCurrentDate(currentTime) {
-    document.getElementById('currentDay')
-      .textContent = currentTime.format('dddd, MMMM Do');
+    document.getElementById('currentDay').textContent = currentTime.format("dddd, MMMM Do YYYY, h:mm:ss a");
   }
   
   /*** functions for displaying all timeblock rows ***/
